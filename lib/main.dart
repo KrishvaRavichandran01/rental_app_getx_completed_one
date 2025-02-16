@@ -190,9 +190,9 @@ class MyApp extends StatelessWidget {
                           child: ListView(scrollDirection: Axis.horizontal,children: [
                             Container_recom("90",'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFInlsN3-Z3YOcdNI5dn7mfYudEWXFCk-JpQ&s'),
 
-                            Container_recom("360",'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFInlsN3-Z3YOcdNI5dn7mfYudEWXFCk-JpQ&s'),
+                            Container_recom("360",'https://ik.imagekit.io/boutiquehomes/storage/images/vacation-rentals/australia-and-oceania/australia/bushy-summers/vacation_home_rental_tasmania_015.jpg?tr=w-3840,ar-1.3-1'),
 
-                            Container_recom("250",'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFInlsN3-Z3YOcdNI5dn7mfYudEWXFCk-JpQ&s')
+                            Container_recom("250",'https://cdn.vox-cdn.com/thumbor/HRvuWjz_b64Aq4Q1J5RLJGM4vYU=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/16344350/0b0cd00c_891f_49a5_a75c_cdd640a23020.f10.jpg')
 
                           ],)
 
