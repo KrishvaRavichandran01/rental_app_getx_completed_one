@@ -17,18 +17,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    SizedBox Spacebetweencontainer(){
-      return SizedBox(width: 15,);
-    }
+
     final height = MediaQuery.of(context).size.height;
     final width = MediaQuery.of(context).size.width;
     final Heartcolor controllerheart2 = Get.put(Heartcolor(),tag: ' controllerheart2');
     final CounterController controller2 = Get.put(CounterController(), tag: 'controller2');
-    Container popular_locations_picture_link_name( var op,String name,double lefts,double tops){
-      return Container(margin: EdgeInsets.only(left: 10),padding: EdgeInsets.only(left:lefts,top: tops),decoration: BoxDecoration( borderRadius: BorderRadius.all(Radius.circular(30)),image:DecorationImage(fit:BoxFit.fill,image: op, )),
-        height: height,width: width/3,child: Text(name,style: TextStyle(letterSpacing: 2,color: Colors.white,fontSize: 25,fontWeight: FontWeight.w900),),
-      );
-    }
+
 
     Widget Container_popular (name,image_from_net){
       return Padding(
