@@ -98,7 +98,7 @@ class MyApp extends StatelessWidget {
                 Text(amount_room,style: TextStyle(fontSize: 25,fontWeight: FontWeight.w800 ),),Text(" / Night",style: TextStyle(fontSize: 15,fontWeight: FontWeight.w500 ),) ,
                 Icon(Icons.electric_bolt_rounded,
                   color: Colors.orangeAccent,size: 15,),
-                SizedBox(width:width/2.8,),
+                SizedBox(width:width/3,),
                 IconButton(onPressed: controller2.increment,constraints: BoxConstraints(minHeight: 20,minWidth: 15), icon: Icon(CupertinoIcons.star_fill,color: Colors.deepOrangeAccent,size: 15,)),
                 Obx((){return Text('${controller2.count.value}',style: TextStyle(fontSize:16,fontWeight: FontWeight.w400 ));})
 
