@@ -27,14 +27,13 @@ class MyApp extends StatelessWidget {
     Widget Container_popular (name,image_from_net){
       return Padding(
         padding: const EdgeInsets.all(6.0),
-        child: Expanded( flex: 3,
-            child: Container(decoration: BoxDecoration( image:DecorationImage(fit:BoxFit.fill,image:image_from_net),borderRadius:BorderRadius.all(Radius.circular(20))),padding: EdgeInsets.only(top: height/7,left: width/10),
-                width: width/3.2,
-                child: Text(name,style: TextStyle(letterSpacing: 2,color: Colors.white,fontSize: 16,fontWeight: FontWeight.w500),))),
+        child: Container(decoration: BoxDecoration( image:DecorationImage(fit:BoxFit.fill,image:image_from_net),borderRadius:BorderRadius.all(Radius.circular(20))),padding: EdgeInsets.only(top: height/7,left: width/10),
+            width: width/3.2,
+            child: Text(name,style: TextStyle(letterSpacing: 2,color: Colors.white,fontSize: 16,fontWeight: FontWeight.w500),)),
       );
     }
     Widget Container_recom(amount,container_Network_image_link){
-      return Expanded(child: Container(
+      return Container(
         color: Colors.white,height: height/3.64,width: width/1.5,
         child: Column(
           children: [
@@ -70,7 +69,7 @@ class MyApp extends StatelessWidget {
 
           ],
         ),
-      ));
+      );
     }
     Widget Container_most(amount_room,container_Network_image_link,){
       return  Padding(
@@ -126,7 +125,7 @@ class MyApp extends StatelessWidget {
           body: ListView(
             scrollDirection: Axis.vertical,
             children:[
-              Container(width: width,color: Color(0XFFEDE7F6),height: height/5,
+              Container(width: width,color: Color(0XFFEDE7F6),height: height/4.7,
                 child: Column(
                   children: [
                     Row(
