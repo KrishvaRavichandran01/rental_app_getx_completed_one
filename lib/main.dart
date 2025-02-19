@@ -154,14 +154,15 @@ class MyApp extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 25),
                 child: Container(
-                  height: height/0.1,
+                  height: height/0.37,
+
                   child: Column( crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(color: Colors.white,margin: EdgeInsets.only(top: height/18,left: width/55), width: width,height:height/16.4,
+                      Container(margin: EdgeInsets.only(top: height/18,left: width/55), width: width,height:height/16.4,
                         child: Text('Popular locations',
                           style: TextStyle(fontSize:25,fontWeight: FontWeight.w700,letterSpacing: 1.5),),
                       ),
-                      Container(color: Colors.white, height: height/4.6
+                      Container( height: height/4.6
                         ,width: width,
                         child: ListView(scrollDirection: Axis.horizontal,children: [
                           Container_popular ("India",NetworkImage('https://i.pinimg.com/236x/fa/63/2a/fa632ab3841f39e80ef80829ef3f9b4e.jpg')),
@@ -174,12 +175,12 @@ class MyApp extends StatelessWidget {
                         ]),
                       ),
                       SizedBox(height: height/45,),
-                      Container(color: Colors.white,margin: EdgeInsets.only(top: height/24,left: width/55), width: width,height:height/19,
+                      Container(margin: EdgeInsets.only(top: height/24,left: width/55), width: width,height:height/19,
                         child: Text('Recommended',
                           style: TextStyle(fontSize:23,fontWeight: FontWeight.w700,letterSpacing: 1.5),),
                       ),
 
-                      Container( height: height/3.2,color: Colors.white,
+                      Container( height: height/3.2,
                           child: ListView(scrollDirection: Axis.horizontal,children: [
                             Container_recom("90",'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFInlsN3-Z3YOcdNI5dn7mfYudEWXFCk-JpQ&s'),
 
@@ -201,7 +202,7 @@ class MyApp extends StatelessWidget {
                         ),),
                       SizedBox(height: height/30,),
 
-                      Container(color: Colors.white,margin: EdgeInsets.only(top: height/18,left: width/55), width: width,height:height/16.4,
+                      Container(margin: EdgeInsets.only(top: height/18,left: width/55), width: width,height:height/16.4,
                         child: Text('Most viewed',
                           style: TextStyle(fontSize:25,fontWeight: FontWeight.w700,letterSpacing: 1.5),),
                       ),
